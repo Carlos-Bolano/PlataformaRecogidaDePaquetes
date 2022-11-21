@@ -1,0 +1,15 @@
+.logo-inta{
+    font-weight: 700 !important;
+    font-size: 25px !important;
+}
+.d-logo{
+    color: rgb(8, 8, 251) ;
+}
+
+.btns{
+    display: flex!important;
+    flex-direction: row!important;
+    justify-content: space-between;
+    
+    width: 160px;
+}
