@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import './Navbar.css'
 
 export function NavBar() {
@@ -10,14 +11,14 @@ export function NavBar() {
         </div>
         <ul className='navbar-nav d-flex btns'>
           <li className='nav-item'>
-            <button className='btn btn-primary'>
-              login 
-            </button>
+            <Link className='btn btn-primary' to={'/'}>
+              Iniciar Sesion 
+            </Link>
           </li>
           <li className='nav-item'>
-            <button className='btn btn-outline-primary'>
-              register
-            </button>
+            <Link className='btn btn-outline-primary' to={'/register'}>
+              Registrar
+            </Link>
           </li>
         </ul>
         

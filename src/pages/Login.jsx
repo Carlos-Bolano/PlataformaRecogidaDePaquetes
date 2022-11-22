@@ -1,5 +1,8 @@
 import React from 'react'
 import { useState } from 'react'
+
+import {Link} from 'react-router-dom'
+
 import './Login.css'
 
 export function Login() {
@@ -103,8 +106,8 @@ export function Login() {
                                                 </a>
                                             </div> */}
                                             <div className="text-center">
-                                                <a className="small" href="#register"
-                                                >No tengo una cuenta!</a>
+                                                <Link className="small" to="/register"
+                                                >No tengo una cuenta!</Link>
 
                                             </div>
                                         </div>

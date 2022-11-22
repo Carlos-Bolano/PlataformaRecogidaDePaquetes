@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Register.css'
 
 export function Register() {
@@ -85,9 +86,8 @@ export function Register() {
                     >
                   </div> --> */}
                   <div className="text-center">
-                    <a className="small" href="#login"
-                      >Tienes una cuenta? logueate!</a
-                    >
+                    <Link className="small" to="/"
+                      >Tienes una cuenta? logueate!</Link>
                   </div>
                 </div>
               </div>
