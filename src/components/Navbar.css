@@ -5,6 +5,9 @@
 .d-logo{
     color: rgb(8, 8, 251) ;
 }
+nav{
+    height: 70px;
+}
 
 .btns{
     display: flex!important;

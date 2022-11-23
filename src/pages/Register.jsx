@@ -10,9 +10,9 @@ export function Register() {
     // los datos que se han ido introduciendo.
     // No permita el actuar por defecto del boton Regitrar cuenta
   return (
-    <section className="page-section bg-white" id="register">
+    <section className="page-section" id="register">
       <div className="container">
-        <div className="card o-hidden border-0 shadow-lg my-5">
+        <div className="card overflow-hidden border-0 shadow-lg my-5">
           <div className="card-body p-0">
             {/* <!-- Nested Row within Card Body --> */}
             <div className="row">

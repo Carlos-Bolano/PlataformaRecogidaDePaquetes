@@ -12,7 +12,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 function App() {
 
   return (
-    <div className="App container-fluid">
+    <div className="App container-fluid p-0 overflow-hidden">
       <BrowserRouter>
         <NavBar />
         <Routes>
